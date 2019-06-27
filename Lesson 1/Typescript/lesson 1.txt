@@ -1,0 +1,23 @@
+De ce ne trebuie la calculator si sa-l compilam?
+    Typescript - este un limbaj de programare care este scris mai sus de javascript,
+             intrucat noi folosim pentru situri-web ,tot codul nostru va fi 
+             reprezentat de browser,intrucit browserul nu foloseste typescript 
+             noi il vom compila in javascript.Typescript a fost facut pentru 
+             ca sa ne fie mai usor de a lucru dar la partea functionala ea 
+             ramane la fel.
+
+- tsc --init -initializam fisierul de configurare.      
+- let ->o varibila limitata de aplicare a unui bloc,
+        spre deosebire e var->care poate defini o variabila locala si globala.
+-tsc index.ts -> compilam din Typescript in JavaScript;
+
+
+Diferenta dintre JavaScript si Typescript:
+-atunci cand var in typescript este de tip string, noi nu putem sa adaugam in  var de tip string o alta valoare de tip number ca in javascript ,in typescript va arata o eraore spre deosebire de javascript.
+
+Tipuri de date:
+ - string
+ - number
+ - boolean
+ - any -> putem adauga mai multe tipuri de date ,avand aceeasi valoare; 
+

@@ -1,0 +1,6 @@
+Sunt 3 metode de acces:
+- public
+- private
+- protected
+
+Atat variabilile cit si metodele pot avea cele 3 metode de access;

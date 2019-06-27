@@ -1,0 +1,4 @@
+Decoratorii -  sunt un instrument de programare declarativă, vă permit să adăugați metadate la clase și membrii acestora și, prin urmare, să vă schimbați comportamentul fără a schimba codul.
+Decoratorii reprezintă funcții care pot fi aplicate la clase, metode, metode de acces (getters și setters), proprietăți, parametri.
+De specificat parametrul : "experimentalDecorators": true din fisierul JSON.
+Apelarea Decoratorului se face prin : @_Denumire_;

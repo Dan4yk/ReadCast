@@ -1,0 +1,3 @@
+Enum - enumurile ne permit să declare un set de constante numite adică o colecție de valori asociate care pot fi valori numerice sau șir.Numerele enumerate sunt enumuri bazate pe numere, adică stochează valorile șirului ca numere.
+Never - TypeScript a introdus un tip nou never, care indică valorile care nu vor apărea niciodată.Tipul niciodată nu este folosit atunci când sunteți sigur că ceva nu va avea loc.
+Null or Void - Tipul vid poate fi nedefinit sau nul ca o valoare unde niciodată nu poate avea nicio valoare.

@@ -1,0 +1,1 @@
+Tipul Generic - Genericitățile oferă o modalitate de a face componentele să funcționeze cu orice tip de date și să nu se limiteze la un singur tip de date. Astfel, componentele pot fi apelate sau utilizate cu o varietate de tipuri de date. Generica în TypeScript este aproape similară cu generice C #.

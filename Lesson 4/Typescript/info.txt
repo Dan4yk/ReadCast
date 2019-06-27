@@ -1,0 +1,29 @@
+let user: {name:string,age:number,jobs: string[],getJobs: () => string[],LogName?: () => void} =...
+
+Ca sa nu introducem de fiecare data tipul fiecarui obiect , in Typescripts exista asa o variabila Type in care noi putem sa 
+introducem toate tipurile si astfel sa folosim mai usor doar un tip de variabila.
+Exemplu:
+        type User = {name:string,age:number,jobs: string[],getJobs: () => string[],LogName?: () => void}
+
+        let user: User = {
+        name: 'Danu',
+        age: 50,
+        jobs:['a','b'],
+        getJobs(): string[]{
+                return this.jobs;
+        },
+        LogName (): void {
+                console.log(this.name)
+        } 
+        };
+
+        let user2: User = {
+        name :"Olesea",
+        age:25,
+        jobs:['2'],
+        getJobs(): string[]{
+                return this.jobs;
+        }
+        }
+
+        TypeScript interfaces are a powerful way of defining contracts within your code as well as contracts with code outside of your project?

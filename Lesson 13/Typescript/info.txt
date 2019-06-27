@@ -1,0 +1,3 @@
+Namespace -  este folosit pentru gruparea logică a funcționalităților. Un Namespace poate include interfețe, clase, funcții și variabile pentru a suporta un singur sau un grup de funcționalități conexe.
+Nu putem folosi clasele ,interfetele,functiile din namespace daca nu scriem cuvantul rezervat "export";
+Namespace  - Folosit pentru a organiza codul în fișiere separate și să nu polueze domeniul de aplicare global.

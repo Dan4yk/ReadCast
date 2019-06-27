@@ -1,0 +1,32 @@
+Functii:
+
+Functia get(JavaScript) - returneaza o valoare;(JavaScript).
+
+Functia get(TypeScript) - In TypeScript este obligatoriu de stabilit tipul pe care noi vrem sa il returnam,
+astfel ne va fi mai usor sa observam ce tip returnam.
+
+-La fel noi putem da parametri in functie ,fara a defini o var globala.
+-Putem da functii parametri cu valori default.
+-Daca nu stabilim tipul void in functie ,tipul functie va transmite undefined.In functie tipul de date void nu returneaza niciun rezultat.
+-Putem atribui unei variabile o variabila ce returneaza o functie. Dar dupa regulile in TypeScript trebuie sa definim tipul de date a functiei  pe care o returneaza.
+
+Putem defini in 2 moduri functiile:
+1)
+        const myname = () => "Danu";
+2)       
+        const myname = function(){
+                return "Danu";
+        }
+
+La fel definim tipurile variabilei declarate:
+Exemplu:
+  let mysum = (num1: number, num2:number) => number;   - aici nu e neaparat sa fie aceleasi var ca in functie,putem introduce oarecare. 
+
+  function sum(num1: number, num2:number): number{
+          return num1 + num2;
+  }
+
+  mysum = sum;
+  console.log(sum(20,30));
+
+  

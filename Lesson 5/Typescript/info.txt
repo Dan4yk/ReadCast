@@ -1,0 +1,2 @@
+sourcemap - din tsconfig.json il folosim pentru a putea gasi mai exact liniea in care am gasit greseala.
+noEmitOnError:true - ne va permite ca sa depistam greselile ,si daca avem greseli fisierul .js nu se va compila.

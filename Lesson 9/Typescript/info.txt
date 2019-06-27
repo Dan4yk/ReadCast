@@ -1,0 +1,16 @@
+Interfața - este o structură care definește contractul în aplicația dvs. Definește sintaxa pentru clase care urmează. Clasele derivate dintr-o interfață trebuie să urmeze structura furnizată de interfața lor.
+            Compilatorul TypeScript nu convertește interfața în JavaScript. Utilizează interfața pentru verificarea tipului. Acest lucru este, de asemenea, cunoscut sub numele de "tipping rață" sau "subtipping structural".
+            O interfață este definită cu cuvântul cheie interfaceși poate include proprietăți și declarații de metodă utilizând o funcție sau o funcție de săgeată.
+
+
+Clasa - În limbile de programare orientate pe obiecte, precum Java și C #, clasele sunt entitățile fundamentale folosite pentru a crea componente reutilizabile.
+
+Constructor - este un tip special de metodă care se numește atunci când se creează un obiect. În TypeScript, metoda constructorului este întotdeauna definită cu numele "constructor".
+
+Moştenire - La fel ca limbile orientate pe obiecte, cum ar fi Java și C #, clasele TypeScript pot fi extinse pentru a crea noi clase cu moștenire folosind cuvântul cheie extends.
+
+Super() - Cuvântul supercheie este folosit pentru a apela constructorul părinte și transmite valorile proprietății.
+
+Clasele abstracte - sunt în principal pentru moștenirea în care pot proveni alte clase. Nu putem crea o instanță a unei clase abstracte.
+                    O clasă abstractă include de obicei una sau mai multe metode abstracte sau declarații de proprietate. Clasa care extinde clasa abstractă trebuie să definească toate metodele abstracte.
+                    Următoarea clasă abstractă declară o metodă abstractă findși include și o metodă normală display.
